@@ -4,26 +4,30 @@
         <meta charset="utf-8">
         <title>Neko Croissant Supreme Overlord</title>
         <style>
-			@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+			<!--@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');-->
 			
 			@font-face {
-				font-family: "Something";
-				src: url("font/something_4/SomethingRegular.ttf") format("truetype");
+				font-family: "Bio-Rhyme";
+				src: url("font/Bio-Rhyme/BioRhyme-Regular.ttf") format("truetype");
 			}
-            body {
-                background-color: rgb(207, 233, 255);
-            }
+			
+			@font-face {
+				font-family: "Space_Mono";
+				src: url("font/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+			}
+			
 			#title {
-				color: rgb(5, 45, 110);
-				font-size: 32px;
-				font-family: "Dosis", sans-serif;
+				background-color: #A7A109;
+				color: #FFFFFF;
+				padding: 10px;
+				margin: 0px;
+				font-family: "Bio-Rhyme", monospace;
 			}
 			
 			#right-pane {
-				background-color: rgb(100, 200, 250);
 				float: left;
-				width: 150px;
-				padding: 20px;
+				width: 200px;
+				padding: 10px;
 				
 				position: absolute;
 				top: 0px;
@@ -32,17 +36,18 @@
 			}
 			
 			p {
-				font-family: "Something";
-				font-size: 24px;
+				font-family: "Space_Mono", monospace;
+				font-size: 14px;
+				color: #4B3824;
 			}
 			
-			#center-body {				
-				position: absolute;
-				left: 200px;
+			.center-body {				
+				margin-left: 220px;
+				background-color: #ECD6AF;
+				padding: 10px;
 			}
 			
 			#footer {
-				background-color: rgb(100, 200, 250);
 				width: 99%;
 				
 				position: absolute;
@@ -53,21 +58,33 @@
 				padding-left: 5px;
 				padding-right: 5px;
 			}
+			
+			.panel {
+				background-color: #D9C960;
+			}
            
             
         </style>
     </head>
     <body>
-		<div id = "right-pane">
-			<h1 id = "title"> Neko Croissant Supreme Overlord </h1>
+		<div id = "right-pane" class = "panel">
+			<h1 id = "title">Neko Croissant Supreme Overlord</h1>
 			<p> welcome to the terrifying home of the neko croissant! meow >:3 </p>
 		</div>
 		
-		<div id = "center-body">
+		<div class = "center-body">
 			<p> this is a very elegant body paragraph. today i will discuss the feasability of chicken nuggets as contemporary dining utensil options in high-end restaurants such as McDonald's. </p>
 		</div>
 		
-		<div id = "footer">
+		<div class = "center-body">
+			<p> thanks for visiting my humble blog. again i will contemplate the relevance of ketchup on cereal. </p>
+		</div>
+		
+		<div class = "center-body">
+			<p> this is a very serious matter, mister. who does not wish to dip their toast in chocolate milk? madness.</p>
+		</div>
+		
+		<div id = "footer" class = "panel">
 			<p> created by wyvio </p>
 		</div>
         
