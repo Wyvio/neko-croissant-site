@@ -1,0 +1,54 @@
+<!--@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');-->
+			
+@font-face {
+	font-family: "Bio-Rhyme";
+	src: url("font/Bio-Rhyme/BioRhyme-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Space_Mono";
+	src: url("font/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+}
+
+#title {
+	background-color: #A7A109;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 0px;
+	font-family: "Bio-Rhyme", monospace;
+}
+
+#right-pane {
+	float: left;
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+}
+
+p {
+	font-family: "Space_Mono", monospace;
+	font-size: 14px;
+	color: #4B3824;
+}
+
+.center-body {
+	background-color: #ECD6AF;
+	padding: 10px;
+	left: 10px;
+}
+
+footer {
+	font-family: "Space_Mono", monospace;
+	position: absolute;
+	bottom: 0px;
+}
+
+.panel {
+	background-color: #D9C960;
+}
+
+#cute-cats-img {
+	max-width: 20%;
+	height: auto;
+}
+        
